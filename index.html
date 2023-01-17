@@ -5,14 +5,17 @@ using namespace std;
 int main()
 {
 	int t;
+	cout<<"How Many String you want sort:"<<endl;
 	cin>>t;
 	//loop for how many times you sort any number of string
 	while(t--){
 		string s;
+		cout<<"Enter Your String:"<<endl;
 		cin>>s;
 		//sorting function using string
 	sort(s.begin(),s.end());
 	//printing statement
+	cout<<"Your sorted string here::"<<endl;
 	cout<<s<<endl;
 }
 }
